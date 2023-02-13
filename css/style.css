@@ -1,7 +1,31 @@
+header {
+  margin-bottom: 15px;
+  border-bottom: 1px solid #12543c;
+}
+
 .row {
   margin-bottom: 24px;
 }
 
-.welcome h1 {
+.about_text {
+  background-color: #9cda86;
+  padding: 30px 60px;
+  margin-bottom: 24px;
+}
+
+h1,
+h2,
+h3 {
   text-align: center;
+  color: #062906;
+}
+
+.card-title-link {
+  text-decoration: none;
+  color: #062906;
+  cursor: pointer;
+}
+
+.card-title-link:hover {
+  color: #9cda86;
 }
